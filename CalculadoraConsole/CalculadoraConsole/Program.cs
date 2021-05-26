@@ -14,9 +14,6 @@ namespace CalculadoraConsole
             int n2;
             string escolha;
 
-            Console.Write(Operacoes.Soma(10,50));
-            Console.Write(Operacoes.Soma(5, 5));
-
             Console.Write("Digite um numero:");
             n1 = Convert.ToInt32(Console.ReadLine());
 
@@ -65,5 +62,9 @@ namespace CalculadoraConsole
             Console.ReadKey();
 
         }
+
+
+
+
     }
 }
